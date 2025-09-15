@@ -47,4 +47,12 @@ public class DigitalWallet {
         if (!verified) throw new IllegalStateException("Wallet not verified");
         if (locked) throw new IllegalStateException("Wallet is locked");
     }
+
+    public void setVerified(boolean b) {
+        throw new UnsupportedOperationException("Unimplemented method 'setVerified'");
+    }
+
+    public void setBlocked(boolean b) {
+        throw new UnsupportedOperationException("Unimplemented method 'setBlocked'");
+    }
 }
